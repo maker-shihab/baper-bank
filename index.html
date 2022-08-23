@@ -17,18 +17,77 @@
   <!-- Place favicon.ico in the root directory -->
   <!-- Fotns -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/css/splide.min.css">
+  <link rel="stylesheet" href="assets/css/vendor/normalize.css">
   <link rel="stylesheet" href="assets/fonts/stylesheet.css">
-  <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/main.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+  <!-- SPLIDE AUTO SCROLL -->
+  <section class="splide" aria-labelledby="carousel-heading">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">FREE US SHIPPING ON ORDERS OVER $100 🙂</li>
+      </ul>
+    </div>
+  </section>
+  <!-- SPLIDE AUTO SCROLL -->
+  <!-- HEADER AREA -->
   <header>
-
+    <div class="container">
+      <!-- HEADER MENU -->
+      <div class="header-menu">
+        <div class="logo-area">
+          <a href="#">
+            <img src="assets/img/logo-light.png" alt="logo">
+          </a>
+        </div>
+        <form class="search-box">
+          <div class="search-box-input">
+            <input type="search" name="search" id="search" placeholder="What can we help you find?">
+            <button type="submit">
+              <img src="assets/img/search.svg" alt="search">
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- HEADER NAV -->
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">STORIES</a></li>
+          <li><a href="#">icon</a></li>
+          <li><a href="#">icon</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+  <!-- HEADER AREA -->
+  <section class="hero-area">
+    <!-- HERO ILLUSTRATION -->
+    <div class="hero-illustration">
+      <img src="assets/img/hero-item.jpg" alt="hero-img">
+    </div>
+    <div class="hero-text-content">
+      <div class="hero-text-shape">
+        <img src="assets/img/heavywaves.svg" alt="shape">
+      </div>
+      <h2>LOUD & PROUD</h2>
+      <p>We Are Children of Immigrats</p>
+      <button>Shop Now</button>
+    </div>
+  </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Splide Scroll -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/js/splide.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.4.2/dist/js/splide-extension-auto-scroll.min.js">
+  </script>
   <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="assets/js/plugins.js"></script>
   <script src="assets/js/main.js"></script>
