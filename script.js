@@ -21,8 +21,6 @@ function deposit() {
 };
 
 function withdraw() {
-  withdrawOutput.innerText = Number(withdrawValue.value) + Number(withdrawOutput.innerText);
-
   withdrawOutput.innerText = addMoney(withdrawValue.value, withdrawOutput.innerText);
 
   balanceOutput.innerText = getMoney(balanceOutput.innerText, withdrawValue.value);
