@@ -1,1 +1,0 @@
-https://www.figma.com/file/3H6BQvvAxv7xkzpzOCznbY/Taukir-Figma-FIle?node-id=2%3A1621
